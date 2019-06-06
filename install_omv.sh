@@ -11,11 +11,11 @@
 #    echo "然后将U盘插入Wisnuc，启动之后自动升级系统，详情请参考群文件《WISNUC系统20170930版本安装说明》。"
 #    exit
 #fi
-if [ "$user" != "root" ];then
-    echo "您不是root用户，无法安装，即将退出。"
-    echo "请在本脚本退出后执行命令sudo su之后再次运行本脚本。"
-    exit
-fi
+#if [ "$user" != "root" ];then
+#    echo "您不是root用户，无法安装，即将退出。"
+#    echo "请在本脚本退出后执行命令sudo su之后再次运行本脚本。"
+#    exit
+#fi
 
 echo
 echo "即将安装apt-fast以加快之后的安装速度。"
