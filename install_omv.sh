@@ -1,16 +1,16 @@
 #!/bin/bash
-OS=`tail -n 1 /etc/lsb-release | awk -F' ' 'NR==1{print $2}'`
-kernel=`uname -r`
-user=`whoami`
-aptfast="/usr/local/sbin/apt-fast"
+#OS=`tail -n 1 /etc/lsb-release | awk -F' ' 'NR==1{print $2}'`
+#kernel=`uname -r`
+#user=`whoami`
+#aptfast="/usr/local/sbin/apt-fast"
 #if [ "$OS" != "16.04.6" ] || [ "$kernel" != "4.4.0-131-generic" ];then
-if [ "$OS" != "16.04.3" ] || [ "$kernel" != "4.3.3.001+" ];then
-    echo "您的系统不是官方原装ubuntu16.04系统, 无法安装，请更新到最新的官方系统之后再次运行本脚本。"
-    echo "更新到最新的官方系统的方法如下："
-    echo "下载群附件《WISNUC系统镜像（请解压后烧录安装）》并写入U盘。"
-    echo "然后将U盘插入Wisnuc，启动之后自动升级系统，详情请参考群文件《WISNUC系统20170930版本安装说明》。"
-    exit
-fi
+#if [ "$OS" != "16.04.3" ] || [ "$kernel" != "4.3.3.001+" ];then
+#    echo "您的系统不是官方原装ubuntu16.04系统, 无法安装，请更新到最新的官方系统之后再次运行本脚本。"
+#    echo "更新到最新的官方系统的方法如下："
+#    echo "下载群附件《WISNUC系统镜像（请解压后烧录安装）》并写入U盘。"
+#    echo "然后将U盘插入Wisnuc，启动之后自动升级系统，详情请参考群文件《WISNUC系统20170930版本安装说明》。"
+#    exit
+#fi
 if [ "$user" != "root" ];then
     echo "您不是root用户，无法安装，即将退出。"
     echo "请在本脚本退出后执行命令sudo su之后再次运行本脚本。"
