@@ -8,6 +8,12 @@ OMV安装
 一键命令，复制->粘贴->回车
 
 ```
+wget -O - https://raw.githubusercontent.com/wdmomoxx/ws215i/master/install_omv.sh | /bin/sh
+```
+
+或者下面的一键命令
+
+```
 sh -c "$(curl -kfsSl https://raw.githubusercontent.com/wdmomoxx/ws215i/master/install_omv.sh)"
 ```
 
