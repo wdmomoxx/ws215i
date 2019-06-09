@@ -22,9 +22,9 @@ echo "即将安装apt-fast以加快之后的安装速度。"
 apt install -y curl
 /bin/bash -c "$(curl -sL https://git.io/vokNn)"
 
-#echo
-#echo "下面开始设置root用户的密码，请输入您想要设置的密码后请回车，系统会提示您再次输入密码以确认。"
-#passwd root
+echo
+echo "下面开始设置root用户的密码，请输入您想要设置的密码后请回车，系统会提示您再次输入密码以确认。"
+passwd root
 
 echo
 echo "接下来开始新建openmediavault.list，并添加omv的源。此操作可能需要花十分钟时间，请耐心等待。"
