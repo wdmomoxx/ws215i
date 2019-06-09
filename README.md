@@ -2,7 +2,7 @@ ws215i上收集的一些安装自动脚本
 ===
 一键命令，复制->粘贴->回车
 
-需要使用`wget`&`curl`软件`apt-get -y wget curl`
+需要使用`wget`&`curl`软件`apt-get -y install wget curl`
 
 ---
 
