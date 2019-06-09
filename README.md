@@ -15,7 +15,7 @@ wget -O - https://raw.githubusercontent.com/wdmomoxx/ws215i/master/ubuntu_instal
 sh -c "$(curl -kfsSl https://raw.githubusercontent.com/wdmomoxx/ws215i/master/ubuntu_install_omv.sh)"
 ```
 
-===
+------
 
 - 适用于`debian`系统的`OMV`一键安装脚本，脚本来自火哥
 ```
